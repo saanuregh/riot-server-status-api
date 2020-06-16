@@ -1,0 +1,32 @@
+games:
+  - name: lol
+    base: https://lol.secure.dyn.riotcdn.net/channels/public/x/status/
+    regions:
+      - kr1
+      - la1
+      - la2
+      - na1
+      - br1
+      - oc1
+      - pbe
+      - ru1
+      - tr1
+      - eun1
+      - euw1
+      - jp1
+  - name: lor
+    base: https://bacon.secure.dyn.riotcdn.net/channels/public/x/status/
+    regions:
+      - asia
+      - europe
+      - sea
+      - americas
+  - name: valorant
+    base: https://valorant.secure.dyn.riotcdn.net/channels/public/x/status/
+    regions:
+      - ap
+      - br
+      - eu
+      - kr
+      - latam
+      - na

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/(.*)", "dest": "api/app.go" }
+  ],
+  "functions": {
+    "api/app.go": {
+      "includeFiles": "config.yaml"
+    }
+  }
+}
